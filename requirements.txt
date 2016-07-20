@@ -1,6 +1,6 @@
 # requirements suggested
 # you should be able to install the necessary packages using the following command:
-# sudo pip install -r CHOUNGMOFOFACK_Nicaise_requirements.txt
+# sudo pip install -r requirements.txt
 #
 # Note: I don't think you need the specific version numbers below
 
