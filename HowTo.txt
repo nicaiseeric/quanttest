@@ -1,0 +1,11 @@
+# You should be able to install the necessary python packages using the following command:
+sudo pip install -r CHOUNGMOFOFACK_Nicaise_requirements.txt
+
+# To Start the notebook and load spark-csv packages
+# set and export the env variable SPARK_HOME to the path where SPARK is installed:
+
+export SPARK_HOME="/home/vagrant/spark-1.5.0"
+export PYTHONPATH=$PYTHONPATH:$SPARK_HOME/python/
+PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS=notebook $SPARK_HOME/bin/pyspark --packages com.databricks:spark-csv_2.10:1.2.0 --master local[*]
+
+
