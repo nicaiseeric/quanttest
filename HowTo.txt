@@ -1,5 +1,5 @@
 # You should be able to install the necessary python packages using the following command:
-sudo pip install -r CHOUNGMOFOFACK_Nicaise_requirements.txt
+sudo pip install -r requirements.txt
 
 # To Start the notebook and load spark-csv packages
 # set and export the env variable SPARK_HOME to the path where SPARK is installed:
